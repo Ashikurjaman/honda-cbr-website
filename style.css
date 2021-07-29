@@ -1,4 +1,10 @@
 
+        
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .header{
     background-color: #264653;
     max-width: 100%;
@@ -13,6 +19,7 @@
     border-radius: 5px;
     padding: 10px;
     border:none;
+    font-weight: 700;
 }
 
 
@@ -23,5 +30,31 @@
 
 .client{
     color: #E76F51;
+}
+
+.banker{
+    
+    /* height: 525px; */
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.Questions{
+    color: #E76F51;
+}
+.collection{
+    color: #E76F51;
+}
+
+.fas{
+    color: #E76F51;
+}
+
+.line-bar{
+    margin-left: 530px;
+    width: 50px;
+    color: #E76F51;
+    border: 2px solid #E76F51 ;
+    border-radius: 5px;
 }
 
