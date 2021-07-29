@@ -1,7 +1,8 @@
 
         
 body{
-    overflow-x: hidden;
+    
+    max-width: 100%;
 }
 
 
@@ -21,7 +22,9 @@ body{
     border:none;
     font-weight: 700;
 }
-
+.modal{
+    overflow-x:hidden;
+}
 
 .feature-bike{
     filter: grayscale(100%);
@@ -46,7 +49,7 @@ body{
 }
 
 .line-bar{
-    margin-left: 530px;
+    
     width: 50px;
     color: #E76F51;
     border: 2px solid #E76F51 ;
